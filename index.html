@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--import your styles-->
+    <link rel="stylesheet" href="./assets/styles.css">
+    <!--import vue-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--insert your web app here-->
+    <div id="app">
+        <nav-bar></nav-bar>
+        <hero></hero>
+    </div>
+
+    <!--import app-->
+    <script src="./main.js"></script>
+
+    <!--import navbar-->
+    <script src="./components/NavBar.js"></script>
+
+    <!--import hero-->
+
+    <script src="./components/Hero.js"></script>
+    <!--mount app-->
+    <script> const mountedApp = app.mount('#app')</script>
+</body>
+</html>
